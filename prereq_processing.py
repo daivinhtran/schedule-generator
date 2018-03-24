@@ -1,5 +1,7 @@
+import json
+
 def parser(s):
-  coursePrefix = ['MATH', 'CS', 'ECE', 'CX', 'ISYE', 'BMED', 'CEE']
+  coursePrefix = ['MATH', 'CS', 'ECE', 'CX', 'ISYE', 'BMED', 'CEE', 'LMC', 'MGT', 'LCC']
   res = []
   s = s.split(' ')
   i = 0
@@ -8,6 +10,17 @@ def parser(s):
       t = []
       i += 1
       while s[i] != ')':
+        if s[i] == '(':
+          z = []
+          i += 1
+          while s[i] != ')':
+            if s[i] in coursePrefix:
+              z.append(s[i] + s[i+1])
+              i += 1
+            elif s[i] == 'OR' or s[i] == 'AND':
+              z.append(s[i])
+            i += 1
+          t.append(z)
         if s[i] in coursePrefix:
           t.append(s[i] + s[i+1])
           i += 1
@@ -26,7 +39,6 @@ def parser(s):
 
 file = open("prereq.txt", "r")
 prereq = {}
-specialChars = ['(', 'CS', 'MATH']
 
 for line in file.readlines():
   # clean data
@@ -65,7 +77,26 @@ for line in file.readlines():
   line = line.replace(';', ' ;')
   line = line.replace('or', 'OR')
   line = line.replace('and', 'AND')
+
+
+  if courseName == 'CS4260':
+    print('test', line)
+
+
   prereq[courseName] = parser(line)
 
-for course in prereq:
+# for course in prereq:
+#   print(course, prereq[course])
+
+courses = sorted(prereq.keys())
+for course in courses:
   print(course, prereq[course])
+
+
+with open('prereq.json', 'w') as fp:
+  json.dump(prereq, fp)
+
+# data = json.load(open('prereq.json'))
+# for course in data:
+#   print(course, data[course])
+
