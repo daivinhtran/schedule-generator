@@ -1,0 +1,129 @@
+CS 1100 Freshman Leap Seminar None
+CS 1171 Computing in MATLAB CS 1301 or CS 15XX or CS 13X1 or CS 1315
+CS 1301 Introduction to Computing None
+CS 1315 Intro Media Computation None
+CS 1316 Rep Structure & Behavior CS 1301 or CS 1315 or CS 1371
+CS 1331 Intro to Object Oriented Prog "C" or higher (CS 1301 or CS 1315 or CS 1321 or CS 1371)
+CS 1332 Data Structures & Algorithms "C" or higher (CS 1331 or CS 1322)
+CS 1371 Computing for Engineers None
+CS 1372 Program Design for Engineers CS 1171 or "C" or higher (CS 1371 or CS 1301)
+CS 2050 Intro Discrete Math CS None
+CS 22051 Honors Discrete Math CS None
+CS 2110 Computer Organiz&Program "C" or higher CS 1331
+CS 2200 Systems and Networks "C" or higher CS 2110
+CS 2261 Media Device Arch "C" or higher CS 1331
+CS 2316 Data Input/Manipulation CS 1371 or CS 1301 or CS 1315
+CS 2335 Software Practicum "C" or higher CS 1332
+CS 2340 Objects and Design "C" or higher (CS 1331 or CS 1372 or CS 1316)
+CS 2345 Adv Practical O-O Prog "C" or higher (CS 2110 or CS 2261 or CS 2340)
+CS 2600 Knowledge Rep & Process "C" or higher (CS 1301 or CS 1315 or CS 1371)
+CS 2701 Startup Lab None
+CS 3101 Comp Sci Ventures "C" or higher (CS 1301 or CS 1315 or CS 1371)
+CS 3210 Design-Operating Systems "C" or higher CS 2200
+CS 3220 Processor Design "C" or higher (CS 2200 and ECE 2031)
+CS 3240 Languages and Computation "C" or higher CS 2340
+CS 3251 Computer Networking I "C" or higher CS 2200
+CS 3300 Intro to Software Engr "C" or higher CS 2340
+CS 3311 Project Design "C" or higher CS 2340; co-requisite LMC 3432
+CS 3312 Project Implementation "C" or higher CS 2340 and LMC 3432; co-requisite LMC 3431
+CS 3451 Computer Graphics (MATH 2605 or 2401 or 2411 or 24X1) and "C" or higher (CS 2110 or 2261) and "C" or higher (CS 1332 and CS 2340)
+CS 3510 Dsgn&Analysis-Algorithms "C" or higher CS 2050/2051 and (MATH 3012 or "C" or higher CS 1332)
+CS 3511 Algorithms Honors "C" or higher CS 2050/2051 and (MATH 3012 or "C" or higher CS 1332)
+CS 3600 Intro-Artificial Intell "C" or higher CS 1332
+CS 3630 Intro-Perception&Robotic "C" or higher CS 1332
+CS 3651 Prototyping Intelligence Appl "C" or higher ECE 2031
+CS 3743 Emerging Technologies None
+CS 3750 User Interface Design None
+CS 3790 Intro-Cognitive Science None
+CS 4001 Computing & Society None
+CS 4002 Robots and Society None
+CS 4005 Next Gen Computing Tech CS 2316
+CS 4010 Intro to Computer Law None
+CS 4052 Systems Analysis & Design None
+CS 4057 Bus Process Analy/Design MGT 2200
+CS 4210 Adv Operating Systems "C" or higher CS 3210
+CS 4220 Embedded Systems "C" or higher CS 2200
+CS 4233 Parallel Comp Arch "C" or higher CS 3210
+CS 4235 Intro to Info Security "C" or higher CS 2200
+CS 4237 Comp & Network Security "C" or higher CS 3251
+CS 4240 Compilers & Interpreters "C" or higher CS 2340
+CS 4245 Intro Data Mining & Anal (Math 2605 or 2401 or 2411 or 24X1) and "C" or higher (CS 1332 or CS 1372)
+CS 4251 Computer Networking II "C" or higher CS 3251
+CS 4255 Intro-Network Management "C" or higher CS 3251
+CS 4260 Telecommunications Sys (MATH 3215 or MATH 3225 or MATH/ISYE/CEE 3770 or ISYE 2028) and "C" or higher CS 2200
+CS 4261 Mobile Apps & Svcs "C" or higher CS 2200
+CS 4270 Data Communications Lab "C" or higher CS 3251
+CS 4280 Survey-Telecom & the Law None
+CS 4290 Advanced Computer Org "C" or higher CS 2200
+CS 4320 Software Processes "C" or higher CS 3300
+CS 4330 Software Applications "C" or higher CS 3300
+CS 4342 Software Generation "C" or higher CS 3300
+CS 4365 Intro to Enterprise Computing "C" or higher (CS 3210 or CS 4400)
+CS 4392 Programming Languages "C" or higher CS 2340
+CS 4400 Intr to Database Systems CS 1301 or CS 1371 or CS 1315
+CS 4420 Database Sys Implement "C" or higher CS 4400
+CS 4432 Information Systems Dsgn "C" or higher (CS 3300 and CS 4400)
+CS 4440 Database Technologies "C" or higher CS 4400
+CS 4452 Human-Centered Computing None
+CS 4455 Video Game Design "C" or higher CS 3451
+CS 4460 Intro to Information Visualization "C" or higher CS 1332
+CS 4464 Computational Journalism "C" or higher CS 1331
+CS 4470 User Interface Software "C" or higher (CS 2340 and CS 3750/PSYC 3750)
+CS 4472 Design of Online Communities None
+CS 4475 Computational Photography "C" or higher (CS 1301 or CS 1315 or CS 1371)
+CS 4476 Intro to Computer Vision (MATH 2605 or 2401 or 24X1 or 2411 or 1553 or 1554 or 1564) and "C" or higher CS 2110/2261
+CS 4480 Digital Video Special FX "C" or higher CS 3451
+CS 4495 Computer Vision (MATH 2605 or 2401 or 24X1 or 2411) and "C" or higher (CS 2110 or CS 2261)
+CS 4496 Computer Animation "C" or higher CS 3451
+CS 4510 Automata and Complexity MATH 3012 and (MATH 3215 or MATH 3670 or ISYE/CEE 3770 or ISYE 2027 with 2028) and "C" or higher CS 3510/3511
+CS 4520 Approximation Algs "C" or higher CS 4540
+CS 4530 Randomized Algs "C" or higher CS 4540
+CS 4540 Advanced Algs MATH 3012 and (MATH 3215 or MATH 3670 or ISYE/CEE 3770 or ISYE 2027 with 2028) and "C" or higher CS 3510/3511
+CS 4550 Scientific Data Processing & Vis "C" or higher CS 3451
+CS 4560 Verification of Systems "C" or higher (CS 2050 and CS 3510)
+CS 4590 Principles & App of Comp Audio None
+CS 4605 Mobile and Ubiquitous Computing "C" or higher (CS 2110 or CS 2261)
+CS 4611 AI Problem Solving "C" or higher CS 3600
+CS 4613 Knowledge Systems Engr "C" or higher CS 3600
+CS 4615 Knowledge Based Modeling & Des"C" or higher CS 3600
+CS 4616 Pattern Recognition "C" or higher CS 1331
+CS 4622 Case-Based Reasoning "C" or higher CS 3600
+CS 4625 Intelligent & Interactive Systems "C" or higher CS 1331
+CS 4632 Adv Intelligent Robotics "C" or higher CS 3630
+CS 4635 Knowledge Based AI "C" or higher CS 3600
+CS 4641 Machine Learning "C" or higher CS 1331
+CS 4649 Robot Intelli Planning "C" or higher CS 1332
+CS 4650 Natural Language "C" or higher CS 3510
+CS 4660 Educational Technology None
+CS 4665 Educ Tech: Dsgn & Eval "C" or higher CS 4660
+CS 4670 CSCL "C" or higher CS 4660
+CS 4675 Internet Sys & Services "C" or higher CS 2200
+CS 4685 Pervasive Systems & Networking "C" or higher CS 2200
+CS 4690 Emperical Methods in HCI "C" or higher CS/PSYC 3750
+CS 4710 CS for Bioinformatics None
+CS 4725 Info Security Policies None
+CS 4726 Privacy Tech Policy Law None
+CS 4731 Game AI "C" or higher CS 3600
+CS 4741 Int Mgt Dev - Proj Prep None
+CS 4742 Comp & Mgt Cap Proj "C" or higher CS 4741
+CS 4752 Phil Issues-Computation None
+CS 4770 Mixed Reality Design LCC 2700 and "C" or higher CS 2340
+CS 4791 Integrative Proj-Cog Sci None
+CS 4792 Dsgn Proj-Cognitive Sci None
+CS 4793 Perspectives-Cog Science "C" or higher CS/PST/PSYC/ISYE 3790
+CS 4911 Design Capstone Project "C" or higher CS 2340
+CS 4912 Design Capstone Project "C" or higher CS 2340
+CX 4010 Computational Prob Solv "C" or higher (CS 1301 or CS 1371)
+CX 4140 Comp Model & Algorithms "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
+CX 4220 Intro High Perf Comp "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
+CX 4230 Computer Simulation (MATH 3215/3225 or MATH 3670 or MATH/ISYE/CEE 3770 or ISYE 2028 or BMED 2400 or ECE 3077) and
+"C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
+CX 4232 Sim & Military Gaming "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
+CX 4236 Distributed Simulat Sys "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
+CX 4240 Computing for Data Analy "C" or higher (CS 1301 or CS 1371)
+CX 4242 Data & Visual Analystics (MATH 2605 or MATH 2401 or MATH 24X1 or MATH 2411) and (MATH 3215/3225 or or MATH 3670 or
+MATH/ISYE/CEE 3770 or ISYE 2028 or BMED 2400 or ECE 3770) and "C" or higher (CS 1331 or CS 1372 or CS 2316
+or CX 4010 or ECE 2035 or ECE 2036 or CX 4240)
+CX 4640 Numerical Analysis I "C" or higher (MATH 2403 or MATH 2413 or MATH 24X3 or MATH 2602)
+CX 4641 Numerical Analysis II "C" or higher (CX 4640 or MATH 4640)
+CX 4777 Vector&Parallel Sci Comp MATH 2605 or MATH 2401 or MATH 24X1 or MATH 2411
