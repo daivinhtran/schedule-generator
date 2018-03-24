@@ -110,5 +110,3 @@ def generate():
 	print('nextSemesterCourses', nextSemesterCourses)
 	print('takenCourses', takenCourses)
 	print('requiredCourses', requiredCourses)
-
-generate()
