@@ -5,7 +5,7 @@ specialChars = ['(', 'CS', 'MATH']
 for line in file.readlines():
   # clean data
   line = line.replace('"C" or higher ', '')
-  line = line.replace('Bus Process Analy/Design', '')
+  line = line.replace('Bus Process Analy/Design ', '')
 
   # get course name
   spl = line.split(' ')
