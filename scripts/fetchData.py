@@ -12,18 +12,28 @@ def start(thread):
     section = []
     classCode = []
 
-    # Section title
-    for i in getHeader:
-    	for j in i:
-    		section.append(str(j))
 
-    # Class code section
-    for ii in getCode:
-        for code in ii:
-            code = str(code)
-            code = re.sub(r"\s+", "", code)
-            classCode.append(code)
+    trElems = getTable.find_all('tr')
+    # print(trElems)
+    for tr in trElems:
+      # print(tr)
+      for i in tr:
+        for j in i:
+          print(j)
 
-    print(section)
-    print(classCode)
+    # # Section title
+    # for i in getHeader:
+    # 	for j in i:
+    # 		section.append(str(j))
+
+    # # Class code section
+    # for ii in getCode:
+    #     for code in ii:
+    #         code = str(code)
+    #         code = re.sub(r"\s+", "", code)
+    #         classCode.append(code)
+
+    # print(section)
+    # print()
+    # print(classCode)
 start('modeling-simulation-information-internetworks')
