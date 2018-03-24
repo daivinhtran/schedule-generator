@@ -50,7 +50,7 @@ CS 4240 Compilers & Interpreters "C" or higher CS 2340
 CS 4245 Intro Data Mining & Anal (Math 2605 or MATH 2401 or MATH 2411 or MATH 24X1) and "C" or higher (CS 1332 or CS 1372)
 CS 4251 Computer Networking II "C" or higher CS 3251
 CS 4255 Intro-Network Management "C" or higher CS 3251
-CS 4260 Telecommunications Sys (MATH 3215 or MATH 3225 or (MATH 3770 or ISYE 3770 or CEE 3770) or ISYE 2028) and "C" or higher CS 2200
+CS 4260 Telecommunications Sys (MATH 3215 or MATH 3225 or MATH 3770 or ISYE 3770 or CEE 3770 or ISYE 2028) and "C" or higher CS 2200
 CS 4261 Mobile Apps & Svcs "C" or higher CS 2200
 CS 4270 Data Communications Lab "C" or higher CS 3251
 CS 4280 Survey-Telecom & the Law None
@@ -73,12 +73,12 @@ CS 4472 Design of Online Communities None
 CS 4475 Computational Photography "C" or higher (CS 1301 or CS 1315 or CS 1371)
 CS 4476 Intro to Computer Vision (MATH 2605 or MATH 2401 or MATH 24X1 or MATH 2411 or MATH 1553 or MATH 1554 or MATH 1564) and "C" or higher (CS 2110 or CS 2261)
 CS 4480 Digital Video Special FX "C" or higher CS 3451
-CS 4495 Computer Vision (MATH 2605 or 2401 or 24X1 or 2411) and "C" or higher (CS 2110 or CS 2261)
+CS 4495 Computer Vision (MATH 2605 or MATH 2401 or MATH 24X1 or MATH 2411) and "C" or higher (CS 2110 or CS 2261)
 CS 4496 Computer Animation "C" or higher CS 3451
 CS 4510 Automata and Complexity MATH 3012 and (MATH 3215 or MATH 3670 or ISYE 3770 or CEE 3770 or (ISYE 2027 and ISYE 2028)) and ("C" or higher CS 3510 or CS 3511)
 CS 4520 Approximation Algs "C" or higher CS 4540
 CS 4530 Randomized Algs "C" or higher CS 4540
-CS 4540 Advanced Algs MATH 3012 and (MATH 3215 or MATH 3670 or ISYE 3770 or CEE 3770 or (ISYE 2027 and ISYE 2028)) and "C" or higher CS 3510 or CS 3511
+CS 4540 Advanced Algs MATH 3012 and (MATH 3215 or MATH 3670 or ISYE 3770 or CEE 3770 or (ISYE 2027 and ISYE 2028)) and ("C" or higher CS 3510 or CS 3511)
 CS 4550 Scientific Data Processing & Vis "C" or higher CS 3451
 CS 4560 Verification of Systems "C" or higher (CS 2050 and CS 3510)
 CS 4590 Principles & App of Comp Audio None
@@ -116,7 +116,7 @@ CS 4912 Design Capstone Project "C" or higher CS 2340
 CX 4010 Computational Prob Solv "C" or higher (CS 1301 or CS 1371)
 CX 4140 Comp Model & Algorithms "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
 CX 4220 Intro High Perf Comp "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
-CX 4230 Computer Simulation (MATH 3215 or MATH 3225 or MATH 3670 or (MATH 3770 or ISYE 3770 or CEE 3770) or ISYE 2028 or BMED 2400 or ECE 3077) and "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
+CX 4230 Computer Simulation (MATH 3215 or MATH 3225 or MATH 3670 or MATH 3770 or ISYE 3770 or CEE 3770 or ISYE 2028 or BMED 2400 or ECE 3077) and "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
 CX 4232 Sim & Military Gaming "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
 CX 4236 Distributed Simulat Sys "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
 CX 4240 Computing for Data Analy "C" or higher (CS 1301 or CS 1371)
