@@ -59,5 +59,3 @@ def start():
     f = open("threads.json","w")
     f.write(threadss)
     f.close()
-
-start()
