@@ -26,9 +26,9 @@ CS 3251 Computer Networking I "C" or higher CS 2200
 CS 3300 Intro to Software Engr "C" or higher CS 2340
 CS 3311 Project Design "C" or higher CS 2340; co-requisite LMC 3432
 CS 3312 Project Implementation "C" or higher CS 2340 and LMC 3432; co-requisite LMC 3431
-CS 3451 Computer Graphics (MATH 2605 or 2401 or 2411 or 24X1) and "C" or higher (CS 2110 or 2261) and "C" or higher (CS 1332 and CS 2340)
-CS 3510 Dsgn&Analysis-Algorithms "C" or higher CS 2050/2051 and (MATH 3012 or "C" or higher CS 1332)
-CS 3511 Algorithms Honors "C" or higher CS 2050/2051 and (MATH 3012 or "C" or higher CS 1332)
+CS 3451 Computer Graphics (MATH 2605 or MATH 2401 or MATH 2411 or MATH 24X1) and "C" or higher (CS 2110 or CS 2261) and "C" or higher (CS 1332 and CS 2340)
+CS 3510 Dsgn&Analysis-Algorithms "C" or higher (CS 2050 or CS 2051) and (MATH 3012 or "C" or higher CS 1332)
+CS 3511 Algorithms Honors "C" or higher (CS 2050 or CS 2051) and (MATH 3012 or "C" or higher CS 1332)
 CS 3600 Intro-Artificial Intell "C" or higher CS 1332
 CS 3630 Intro-Perception&Robotic "C" or higher CS 1332
 CS 3651 Prototyping Intelligence Appl "C" or higher ECE 2031
@@ -47,10 +47,10 @@ CS 4233 Parallel Comp Arch "C" or higher CS 3210
 CS 4235 Intro to Info Security "C" or higher CS 2200
 CS 4237 Comp & Network Security "C" or higher CS 3251
 CS 4240 Compilers & Interpreters "C" or higher CS 2340
-CS 4245 Intro Data Mining & Anal (Math 2605 or 2401 or 2411 or 24X1) and "C" or higher (CS 1332 or CS 1372)
+CS 4245 Intro Data Mining & Anal (Math 2605 or MATH 2401 or MATH 2411 or MATH 24X1) and "C" or higher (CS 1332 or CS 1372)
 CS 4251 Computer Networking II "C" or higher CS 3251
 CS 4255 Intro-Network Management "C" or higher CS 3251
-CS 4260 Telecommunications Sys (MATH 3215 or MATH 3225 or MATH/ISYE/CEE 3770 or ISYE 2028) and "C" or higher CS 2200
+CS 4260 Telecommunications Sys (MATH 3215 or MATH 3225 or (MATH 3770 or ISYE 3770 or CEE 3770) or ISYE 2028) and "C" or higher CS 2200
 CS 4261 Mobile Apps & Svcs "C" or higher CS 2200
 CS 4270 Data Communications Lab "C" or higher CS 3251
 CS 4280 Survey-Telecom & the Law None
@@ -68,17 +68,17 @@ CS 4452 Human-Centered Computing None
 CS 4455 Video Game Design "C" or higher CS 3451
 CS 4460 Intro to Information Visualization "C" or higher CS 1332
 CS 4464 Computational Journalism "C" or higher CS 1331
-CS 4470 User Interface Software "C" or higher (CS 2340 and CS 3750/PSYC 3750)
+CS 4470 User Interface Software "C" or higher (CS 2340 and CS 3750)
 CS 4472 Design of Online Communities None
 CS 4475 Computational Photography "C" or higher (CS 1301 or CS 1315 or CS 1371)
-CS 4476 Intro to Computer Vision (MATH 2605 or 2401 or 24X1 or 2411 or 1553 or 1554 or 1564) and "C" or higher CS 2110/2261
+CS 4476 Intro to Computer Vision (MATH 2605 or MATH 2401 or MATH 24X1 or MATH 2411 or MATH 1553 or MATH 1554 or MATH 1564) and "C" or higher (CS 2110 or CS 2261)
 CS 4480 Digital Video Special FX "C" or higher CS 3451
 CS 4495 Computer Vision (MATH 2605 or 2401 or 24X1 or 2411) and "C" or higher (CS 2110 or CS 2261)
 CS 4496 Computer Animation "C" or higher CS 3451
-CS 4510 Automata and Complexity MATH 3012 and (MATH 3215 or MATH 3670 or ISYE/CEE 3770 or ISYE 2027 with 2028) and "C" or higher CS 3510/3511
+CS 4510 Automata and Complexity MATH 3012 and (MATH 3215 or MATH 3670 or ISYE 3770 or CEE 3770 or (ISYE 2027 and ISYE 2028)) and ("C" or higher CS 3510 or CS 3511)
 CS 4520 Approximation Algs "C" or higher CS 4540
 CS 4530 Randomized Algs "C" or higher CS 4540
-CS 4540 Advanced Algs MATH 3012 and (MATH 3215 or MATH 3670 or ISYE/CEE 3770 or ISYE 2027 with 2028) and "C" or higher CS 3510/3511
+CS 4540 Advanced Algs MATH 3012 and (MATH 3215 or MATH 3670 or ISYE 3770 or CEE 3770 or (ISYE 2027 and ISYE 2028)) and "C" or higher CS 3510 or CS 3511
 CS 4550 Scientific Data Processing & Vis "C" or higher CS 3451
 CS 4560 Verification of Systems "C" or higher (CS 2050 and CS 3510)
 CS 4590 Principles & App of Comp Audio None
@@ -99,7 +99,7 @@ CS 4665 Educ Tech: Dsgn & Eval "C" or higher CS 4660
 CS 4670 CSCL "C" or higher CS 4660
 CS 4675 Internet Sys & Services "C" or higher CS 2200
 CS 4685 Pervasive Systems & Networking "C" or higher CS 2200
-CS 4690 Emperical Methods in HCI "C" or higher CS/PSYC 3750
+CS 4690 Emperical Methods in HCI "C" or higher CS 3750
 CS 4710 CS for Bioinformatics None
 CS 4725 Info Security Policies None
 CS 4726 Privacy Tech Policy Law None
@@ -110,17 +110,17 @@ CS 4752 Phil Issues-Computation None
 CS 4770 Mixed Reality Design LCC 2700 and "C" or higher CS 2340
 CS 4791 Integrative Proj-Cog Sci None
 CS 4792 Dsgn Proj-Cognitive Sci None
-CS 4793 Perspectives-Cog Science "C" or higher CS/PST/PSYC/ISYE 3790
+CS 4793 Perspectives-Cog Science "C" or higher CS 3790
 CS 4911 Design Capstone Project "C" or higher CS 2340
 CS 4912 Design Capstone Project "C" or higher CS 2340
 CX 4010 Computational Prob Solv "C" or higher (CS 1301 or CS 1371)
 CX 4140 Comp Model & Algorithms "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
 CX 4220 Intro High Perf Comp "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
-CX 4230 Computer Simulation (MATH 3215/3225 or MATH 3670 or MATH/ISYE/CEE 3770 or ISYE 2028 or BMED 2400 or ECE 3077) and "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
+CX 4230 Computer Simulation (MATH 3215 or MATH 3225 or MATH 3670 or (MATH 3770 or ISYE 3770 or CEE 3770) or ISYE 2028 or BMED 2400 or ECE 3077) and "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
 CX 4232 Sim & Military Gaming "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
 CX 4236 Distributed Simulat Sys "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
 CX 4240 Computing for Data Analy "C" or higher (CS 1301 or CS 1371)
-CX 4242 Data & Visual Analystics (MATH 2605 or MATH 2401 or MATH 24X1 or MATH 2411) and (MATH 3215/3225 or or MATH 3670 or MATH/ISYE/CEE 3770 or ISYE 2028 or BMED 2400 or ECE 3770) and "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036 or CX 4240)
+CX 4242 Data & Visual Analystics (MATH 2605 or MATH 2401 or MATH 24X1 or MATH 2411) and ((MATH 3215 or MATH 3225) or MATH 3670 or (MATH 3770 or ISYE 3770 or CEE 3770) or ISYE 2028 or BMED 2400 or ECE 3770) and "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036 or CX 4240)
 CX 4640 Numerical Analysis I "C" or higher (MATH 2403 or MATH 2413 or MATH 24X3 or MATH 2602)
 CX 4641 Numerical Analysis II "C" or higher (CX 4640 or MATH 4640)
 CX 4777 Vector&Parallel Sci Comp MATH 2605 or MATH 2401 or MATH 24X1 or MATH 2411
