@@ -8,7 +8,7 @@ CS 1332 Data Structures & Algorithms "C" or higher (CS 1331 or CS 1322)
 CS 1371 Computing for Engineers None
 CS 1372 Program Design for Engineers CS 1171 or "C" or higher (CS 1371 or CS 1301)
 CS 2050 Intro Discrete Math CS None
-CS 22051 Honors Discrete Math CS None
+CS 2051 Honors Discrete Math CS None
 CS 2110 Computer Organiz&Program "C" or higher CS 1331
 CS 2200 Systems and Networks "C" or higher CS 2110
 CS 2261 Media Device Arch "C" or higher CS 1331
@@ -116,14 +116,11 @@ CS 4912 Design Capstone Project "C" or higher CS 2340
 CX 4010 Computational Prob Solv "C" or higher (CS 1301 or CS 1371)
 CX 4140 Comp Model & Algorithms "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
 CX 4220 Intro High Perf Comp "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
-CX 4230 Computer Simulation (MATH 3215/3225 or MATH 3670 or MATH/ISYE/CEE 3770 or ISYE 2028 or BMED 2400 or ECE 3077) and
-"C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
+CX 4230 Computer Simulation (MATH 3215/3225 or MATH 3670 or MATH/ISYE/CEE 3770 or ISYE 2028 or BMED 2400 or ECE 3077) and "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
 CX 4232 Sim & Military Gaming "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
 CX 4236 Distributed Simulat Sys "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036)
 CX 4240 Computing for Data Analy "C" or higher (CS 1301 or CS 1371)
-CX 4242 Data & Visual Analystics (MATH 2605 or MATH 2401 or MATH 24X1 or MATH 2411) and (MATH 3215/3225 or or MATH 3670 or
-MATH/ISYE/CEE 3770 or ISYE 2028 or BMED 2400 or ECE 3770) and "C" or higher (CS 1331 or CS 1372 or CS 2316
-or CX 4010 or ECE 2035 or ECE 2036 or CX 4240)
+CX 4242 Data & Visual Analystics (MATH 2605 or MATH 2401 or MATH 24X1 or MATH 2411) and (MATH 3215/3225 or or MATH 3670 or MATH/ISYE/CEE 3770 or ISYE 2028 or BMED 2400 or ECE 3770) and "C" or higher (CS 1331 or CS 1372 or CS 2316 or CX 4010 or ECE 2035 or ECE 2036 or CX 4240)
 CX 4640 Numerical Analysis I "C" or higher (MATH 2403 or MATH 2413 or MATH 24X3 or MATH 2602)
 CX 4641 Numerical Analysis II "C" or higher (CX 4640 or MATH 4640)
 CX 4777 Vector&Parallel Sci Comp MATH 2605 or MATH 2401 or MATH 24X1 or MATH 2411
