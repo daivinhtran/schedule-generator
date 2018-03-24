@@ -9,7 +9,6 @@ def start(thread):
     getTable = soup.find(class_='sc_courselist')
     getCode = getTable.find_all('a')
     getHeader = getTable.find_all(class_='courselistcomment areaheader ')
-    dict = {}
     section = []
     classCode = []
 
@@ -20,10 +19,11 @@ def start(thread):
 
     # Class code section
     for ii in getCode:
-        print(ii)
         for code in ii:
             code = str(code)
             code = re.sub(r"\s+", "", code)
             classCode.append(code)
 
+    print(section)
+    print(classCode)
 start('modeling-simulation-information-internetworks')
