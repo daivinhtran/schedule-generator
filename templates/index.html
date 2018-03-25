@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>CS Schedule Generator</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="static/main.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<span class="avatar"><img src="static/GT.png" alt="" /></span>
+						<h1 style="font: inherit;vertical-align: baseline; font-size: 25px;">This <strong>CS Schedule Generator</strong>, is a tool that help users be able to determine their future classes to take and be able to keep track of the classes of following year.</h1>
+					</header>
+
+				<!-- Main -->
+					<section id="main">
+						<div class="row">
+								<div class="col-sm-4" style="background-color: purple;">
+									<h2 style="text-align: center; color: white;">Taken Courses</h2>
+									<br>
+									<p style="color: white;">Please select the classes you already took!</p>
+									<ul style="background-color: white; border-color: white;">
+										<select id="Class Taken">
+											<option value="CS1100">CS1100</option>
+											<option value="CS1171">CS1171</option>
+											<option value="CS1301">CS1301</option>
+											<option value="CS1315">CS1315</option>
+											<option value="CS1316">CS1316</option>
+											<option value="CS1331">CS1331</option>
+											<option value="CS1332">CS1332</option>
+											<option value="CS1371">CS1371</option>
+											<option value="CS1372">CS1372</option>
+											<option value="CS2050">CS2050</option>
+											<option value="CS2110">CS2110</option>
+											<option value="CS2200">CS2200</option>
+											<option value="CS2261">CS2261</option>
+											<option value="CS2316">CS2316</option>
+											<option value="CS2335">CS2335</option>
+											<option value="CS2340">CS2340</option>
+											<option value="CS2345">CS2345</option>
+											<option value="CS2600">CS2600</option>
+											<option value="CS2701">CS2701</option>
+											<option value="CS3101">CS3101</option>
+											<option value="CS3210">CS3210</option>
+											<option value="CS3240">CS3240</option>
+											<option value="CS3251">CS3251</option>
+											<option value="CS3300">CS3300</option>
+											<option value="CS3311">CS3311</option>
+											<option value="CS3312">CS3312</option>
+											<option value="CS3451">CS3451</option>
+											<option value="CS3510">CS3510</option>
+										</select>
+									</ul>
+									<div style="text-align: center;"><button onclick="myFunction()" style="font-size: 15px;">Hit to SAVE!!!</button></div>
+								</div>
+
+								<div class="col-sm-8" style="background-color: white;">
+									<h2 style="text-align: center;">Schedule Generator</h2>
+								</div>
+ 						</div>
+					</section>
+
+					<!-- Click button -->
+				<script type="text/javascript">
+					takenCourses = []
+					function myFunction() {
+						var val = document.getElementById("Class Taken").value;
+							if ((takenCourses.includes(val)) == false) {
+								takenCourses.push(val)
+							} else {
+								alert('You already selected this course!')
+							}
+						console.log(takenCourses)
+					}
+
+				</script>
+				<!-- Footer -->
+					<footer id="footer">
+						<p>&copy; Made by Vinh Tran and Thinh Nguyen - HackGSU 2018</p>
+					</footer>
+			</div>
+
+		<!-- Scripts -->
+			<script src="static/jquery.min.js"></script>
+			<script src="static/jquery.poptrox.min.js"></script>
+			<script src="static/skel.min.js"></script>
+			<script src="static/main.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	</body>
+</html>
