@@ -7,21 +7,21 @@ CS 3251 Computer Networking I 1 3
 CS 3510 Design and Analysis of Algorithms 1 3
 ECE 2031  Digital Design Laboratory 1 2
 
-Select one of the following for Building Devices: 1 4
+Select one for Building Devices: 1 4
 CS 3651 Prototyping Intelligence Appliances 
 ECE 4180 Embedded Systems Design 
 
-Select one of the following for Devices in the Real World: 1  3
+Select one for Devices in the Real World: 1  3
 CS 3630 Introduction to Perception and Robotics 
 CS 4261 Mobile Applications and Services for Converged Networks 
 CS 4605 Mobile and Ubiquitous Computing 
 CS 4476 Introduction to Computer Vision 
 
-Select one of the following for Systems Software Tools: 1 3
+Select one for Systems Software Tools: 1 3
 CS 3300 Introduction to Software Engineering  
 CS 4240 Compilers, Interpreters, and Program Analyzers  
 
-Select one of the following for Advanced Systems Architectures: 1 3
+Select one Advanced Systems Architectures: 1 3
 CS 4210 Advanced Operating Systems  
 CS 4220 Programming Embedded Systems  
 CS 4290 Advanced Computer Organization
