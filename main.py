@@ -1,4 +1,3 @@
-# Analyze the stack to determine the new stack
 def analyzeStacks(stack1, stack2, takenCourses):
   for i in range(len(stack1)-1, -1, -1):
     if stack1[i] in takenCourses:
@@ -16,41 +15,51 @@ def analyzeStacks(stack1, stack2, takenCourses):
 
   return stack1
 
-# Anylyze two stack to give out the final output
 def finalArr(output, stack3):
   out = []
-  for i in range(len(stack3)):
+  for i in range(len(stack3)-1,-1,-1):
     getVal1 = output.pop()
-    getVal2 = output.pop()
-    if (stack3.pop() == 'OR'):
-      out.append(getVal1[0] or getVal2[0])
-    else:
-      out.append(getVal1[0] and getVal2[0])
+    if (type(getVal1) == type([])):
+      getVal1 = getVal1[0]
+    if(len(output) != 0):
+      getVal2 = output.pop()
+      if(type(getVal2) == type([])):
+        getVal2 = getVal2[0]
 
-  return out
+    booll = stack3.pop()
+    if (booll == 'OR'):
+      if(type(booll) == type([])):
+        out.append(getVal1 or getVal2)
+      out.append(getVal1 or getVal2)
 
-# Main function to get the takenCourses
-def generate():
-  # takenCourses = ['cs1301', 'cs1331', 'cs2110']
-  takenCourses = ['MATH2605', 'CS2110']
+  # for i in range(len(stack3)):
+  #   getVal1 = output.pop()
+  #   if type(getVal1) == type([]):
+  #     getVal1 = getVal1[0]
+  #   if(len(output) != 0):
+  #     getVal2 = output.pop()
+  #     if type(getVal2) == type([]):
+  #       getVal2 = getVal2[0]
+  #     if (stack3.pop() == 'OR'):
+  #       out.append(getVal1 or getVal2)
+  #     else:
+  #       out.append(getVal1 and getVal2)
+  #   else:
+  #     getVal2 = ""
 
-  # requiredCourses = ['cs1332', 'cs2340','cs2110', 'cs3510']
-  # requiredCourses = ['cs1301', 'cs1322', 'cs1332', 'cs2340','cs2110', 'cs3510']
-  # requiredCourses = ['cs1332', 'cs4400']
-  requiredCourses = ['CS3451']
+  #     print('stack3', stack3)
+  #   if (len(output) > 0):
+  #     if(stack3.pop() == "OR" and type(output) != type([])):
+  #       return (getVal1 or output)
+  #     elif(stack3.pop() == "OR" and type(output) == type([])):
+  #       return (getVal1 or output[0])
+  #     elif (stack3.pop() == "AND" and type(output) != type([])):
+  #       return (getVal1 and output)
+  #     else:
+  #       return (getVal1 and output[0])
 
-  prereq = {
-    # 'cs1301': ['None'],
-    # 'cs1331': ['cs1301'],
-    # 'cs1322': ['cs1301'],
-    # 'cs1332': ['cs1331', 'OR', 'cs1322'],
-    # 'cs2340': ['cs1331'],
-    # 'cs2110': ['cs1331'],
-    # 'cs4400': ['cs2110']
-    'CS3451': [['MATH2605', 'OR', 'MATH2401', 'OR', 'MATH2411'], 'AND', ['CS2110', 'OR', 'CS2261']]
-  }
-
-  nextSemesterCourses = []
+print(finalArr([[True], [False], [True]], ['AND', 'AND']))
+def canTake(course, prereq, takenCourses):
   stack1 = []
   stack2 = []
   stack3 = []
@@ -58,86 +67,64 @@ def generate():
   previ = ''
   typeof = ''
 
-  for i in prereq.keys():
-    if i in requiredCourses:
-      for j in prereq[i]:
-        typeof = 'string'
-        if (type(j) == type([])):
-          previ = 'list'
-          for ii in j:
-            if (ii == 'OR' or ii == 'AND'):
-              stack2.append(ii)
-            else:
-              stack1.append(ii)
-          output.append(analyzeStacks(stack1, stack2, takenCourses))
-          stack2 = []
-          stack1 = []
-        elif ((j == 'AND' or j == 'OR') and previ == 'list'):
-          stack3.append(j)
-        if (type(j) == type(' ') and (typeof == 'string')):
-          if (j == 'None' and (j not in takenCourses)):
-            takenCourses.append(i)
-            requiredCourses.remove(i)
-            if (len(nextSemesterCourses) < 3):
-              nextSemesterCourses.append(i)
-            elif (len(nextSemesterCourses) > 3):
-              nextSemesterCourses = []
-              nextSemesterCourses.append(i)
-          elif (j != 'None'):
-            if j in takenCourses:
-              if j not in nextSemesterCourses:
-                takenCourses.append(i)
-                requiredCourses.remove(i)
-                if (len(nextSemesterCourses) < 3):
-                  nextSemesterCourses.append(i)
-                elif (len(nextSemesterCourses) > 3):
-                  nextSemesterCourses = []
-                  nextSemesterCourses.append(i)
+  # if course in prereq.keys():
+  for i in prereq:
+    print('prereq: ',i)
+    if (i == course):
+      if (prereq[i] == []):
+        return True
+      else:
+        for preres in prereq[i]:
+          typeof = 'string'
+          if(type(preres) == type([])):
+            previ = 'list'
+            for j in preres:
+              print(j)
+              if(j == 'OR' or j == "AND"):
+                stack2.append(j)
               else:
-                break
+                stack1.append(j)
+            print('stack1', stack1)
+            print('stack2', stack2)
+            output.append(analyzeStacks(stack1, stack2, takenCourses))
+            print('output', output)
+            stack2 = []
+            stack1 = []
+          elif ((preres == 'AND' or preres == 'OR') and previ == 'list'):
+            stack3.append(preres)
+            print('stack3', stack3)
+          elif (type(preres) == type(' ') and (typeof == 'string')):
+            if ((preres in takenCourses) and ('AND' not in prereq[i])):
+              return True
+  print('new stack3: ',stack3)
+  if (len(output) > 0):
+    if (finalArr(output, stack3)):
+      return True
 
-    # Only execute when the values of key are multiple arrays
-    final = finalArr(output, stack3)
-    if (final):
-      takenCourses.append(i)
-      requiredCourses.remove(i)
-      if (len(nextSemesterCourses) < 3):
-        nextSemesterCourses.append(i)
-      elif (len(nextSemesterCourses) > 3):
-        nextSemesterCourses = []
-        nextSemesterCourses.append(i)
+  return False
+# print(canTake("CS1171",{'CS1171' : ["CS1301", "OR", "CS15XX", "OR", "CS13X1", "OR", "CS1315"]}, []))
+# print(canTake("CS1100", {"CS1100": []}, []))
+# print(canTake('CX4242', {"CX4242": [["MATH2605", "OR", "MATH2401", "OR", "MATH24X1", "OR", "MATH2411"], "AND", [["MATH3215", "OR", "MATH3225"], "OR", "MATH3670", "OR", ["MATH3770", "OR", "ISYE3770", "OR", "CEE3770"], "OR", "ISYE2028", "OR", "BMED2400", "OR", "ECE3770"], "AND", ["CS1331", "OR", "CS1372", "OR", "CS2316", "OR", "CX4010", "OR", "ECE2035", "OR", "ECE2036", "OR", "CX4240"]]}, ["MATH2401", "MATH3215", "CS1331"]))
+# import json
 
-  print('nextSemesterCourses', nextSemesterCourses)
-  print('takenCourses', takenCourses)
-  print('requiredCourses', requiredCourses)
+# with open('Data/Inf_Med.json') as json_data:
+#   coursesToGraduate = json.load(json_data)
+#   json_data.close()
 
-def canTake(course, prereq, takenCourses):
-  if course not in prereq:
-    prereqArr = []
-  else:
-    prereqArr = prereq[course]
-  return True
+# with open('credithours.json') as json_data:
+#   creditHours = json.load(json_data)
+#   json_data.close()
 
-import json
+# with open('prereq.json') as json_data:
+#   prereq = json.load(json_data)
+#   json_data.close()
 
-with open('Data/Inf_Med.json') as json_data:
-  coursesToGraduate = json.load(json_data)
-  json_data.close()
+# takenCourses = []
+# for group in coursesToGraduate:
+#   # print(group)
+#   for course in coursesToGraduate[group]:
+#     if (canTake(course, prereq, takenCourses)):
+#       takenCourses.append(course)
+#   print()
 
-with open('credithours.json') as json_data:
-  creditHours = json.load(json_data)
-  json_data.close()
-
-with open('prereq.json') as json_data:
-  prereq = json.load(json_data)
-  json_data.close()
-
-takenCourses = []
-for group in coursesToGraduate:
-  print(group)
-  for course in coursesToGraduate[group]:
-    if canTake(course, prereq, takenCourses):
-      takenCourses.append(course)
-  print()
-
-print(takenCourses)
+# print(takenCourses)
