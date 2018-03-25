@@ -1,0 +1,44 @@
+Concentration 
+CS 1171 Introductory Computing in MATLAB  1
+CS 2110 Computer Organization and Programming 1 4
+CS 2200 Computer Systems and Networks 1 4
+CS 3510 Design and Analysis of Algorithms 1 3
+or CS 3511  Design and Analysis of Algorithms, Honors
+CS 3600 Introduction to Artificial Intelligence 1 3
+MATH 2552 Differential Equations 1  4
+Select one of the following for Computational Complexity: 1 3
+CS 3240
+Languages and Computation 
+CS 4510
+Automata and Complexity Theory  
+Select one of the following for Embodied Intelligence: 1  3
+CS 3630
+Introduction to Perception and Robotics 
+CS 3790
+Introduction to Cognitive Science 
+PSYC 3040
+Sensation and Perception  
+Select six credit hours of the following for Approaches to Intelligence: 1,3  6
+CS 4635
+Knowledge-Based Artificial Intelligence 
+CS 4476
+Introduction to Computer Vision 
+CS 4641
+Machine Learning  
+CS 4649
+Robot Intelli Planning  
+CS 4650
+Natural Language Understanding  
+CS 4731
+Game AI 
+Select six credit hours of the following for Computational Science and Engineering: 1,3 6
+CS 4641
+Machine Learning  
+CX 4140
+Computational Modeling Algorithms 
+CX 4220
+Introduction to High Performance Computing  
+CX 4230
+Computer Simulation 
+CX 4640
+Numerical Analysis I

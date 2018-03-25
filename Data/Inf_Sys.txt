@@ -1,0 +1,35 @@
+Concentration 
+CS 2110 Computer Organization and Programming 1 4
+CS 2200 Computer Systems and Networks 1 4
+CS 3210 Design of Operating Systems 1 3
+CS 3220 Computer Structures: Hardware/Software Codesign of a Processor 1  3
+CS 3510 Design and Analysis of Algorithms 1 3
+ECE 2031  Digital Design Laboratory 1 2
+
+Select six credit hours of the following for Introduction to Information Management: 1  6
+CS 3251 Computer Networking I 
+CS 4235 Introduction to Information Security  
+CS 4400 Introduction to Database Systems  
+
+Select one of the following for Advanced Information Management: 1  3
+CS 3251 Computer Networking I (if not takeng for Introduction to Information Management)  
+CS 4235 Introduction to Information Security (if not taken for Introduction to Information Management)  
+CS 4237 Computer and Network Security 
+CS 4251 Computer Networking II  
+CS 4255 Introduction to Network Management  
+CS 4261 Mobile Applications and Services for Converged Networks 
+CS 4270 Data Communications Laboratory  
+CS 4365 Introduction to Enterprise Computing  
+CS 4400 Introduction to Database Systems (if not taken for Introduction to Information Management)  
+CS 4420 Database System Implementation  
+CS 4440 Emerging Database Technologies and Applications 
+CS 4675 Internet Computing Systems, Services and Applications 
+
+Select one of the following for Systems Software Tools: 1 3
+CS 3300 Introduction to Software Engineering  
+CS 4240 Compilers, Interpreters, and Program Analyzers  
+
+Select one of the following for Advanced Systems Architectures: 1 3
+CS 4210 Advanced Operating Systems  
+CS 4220 Programming Embedded Systems  
+CS 4290 Advanced Computer Organization
