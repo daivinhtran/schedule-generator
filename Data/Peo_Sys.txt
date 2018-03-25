@@ -1,0 +1,32 @@
+Concentration	
+CS 2110	Computer Organization and Programming 1	4
+CS 2200	Computer Systems and Networks 1	4
+CS 3210	Design of Operating Systems 1	3
+CS 3220	Computer Structures: Hardware/Software Codesign of a Processor 1	3
+CS 3510	Design and Analysis of Algorithms 1	3
+or CS 3511	Design and Analysis of Algorithms, Honors
+ECE 2031	Digital Design Laboratory 1	2
+PSYC 2015	Research Methods 1	4
+CS 3750	Human Computer Interface Design and Evaluation 1	3
+
+Select two of the following for Human-Centered Technology: 1	6
+CS 3790 Introduction to Cognitive Science	
+CS 4660 Introduction to Educational Technology	
+CS 4460 Introduction to Information Visualization	
+CS 4470 Introduction to User Interface Software	
+CS 4605 Mobile and Ubiquitous Computing	
+CS 4472 Design of Online Communities	
+
+Select one of the following for Social/Behavioral Science for Computing: 1	3
+PSYC 2210 Social Psychology	
+PSYC 2760 Human Language Processing	
+PSYC 3040 Sensation and Perception	
+
+Select one of the following for Systems Software Tools: 1	3
+CS 3300 Introduction to Software Engineering	
+CS 4240 Compilers, Interpreters, and Program Analyzers	
+
+Select one of the following for Advanced Systems Architectures: 1	3
+CS 4210 Advanced Operating Systems	
+CS 4220 Programming Embedded Systems	
+CS 4290 Advanced Computer Organization

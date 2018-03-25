@@ -1,0 +1,22 @@
+Concentration	
+CS 2110	Computer Organization and Programming 1	4
+CS 3451	Computer Graphics 1	3
+CS 3510	Design and Analysis of Algorithms 1	3
+or CS 3511	Design and Analysis of Algorithms, Honors
+CS 4510	Automata and Complexity Theory 1	3
+CS 4540	Advanced Algorithms 1	3
+MATH 3406	A Second Course in Linear Algebra 1	3
+
+Select two of the following for Media Technologies: 1	6
+CS 4455 Video Game Design and Programming	
+CS 4460 Introduction to Information Visualization	
+CS 4464 Computational Journalism	
+CS 4475 Computational Photography	
+CS 4480 Digital Video Special Effects	
+CS 4496 Computer Animation	
+CS 4590 Principles and Applications of Computer Audio	
+
+Select one of the following for Advanced Mathematics: 1	3
+MATH 4022 Introduction to Graph Theory	
+MATH 4032 Combinatorial Analysis	
+MATH 4150 Introduction to Number Theory

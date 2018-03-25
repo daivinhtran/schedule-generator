@@ -1,3 +1,5 @@
+import json
+
 file = open("credithours.txt", "r+")
 map = {}
 for line in file:
@@ -12,3 +14,5 @@ for line in file:
             map[key] = line[0:(i)]
         i+=1
 
+with open('credithours.json', 'w') as fp:
+    json.dump(map, fp)
